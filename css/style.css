@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
 :root {
     /* primary */
     --Dark-cyan: #3c8067;
@@ -17,7 +21,7 @@
 body {
     background-color: var(--Cream) !important;
     position: relative;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -39,12 +43,20 @@ img.moblie {
     padding: 30px !important;
 }
 
+.card-body p{
+    font-weight: 500;
+}
+.card-body h2{
+    font-family: 'Fraunces', serif;
+}
+
 .category {
     letter-spacing: 3px;
 }
 
 .price h2 {
     color: var(--Dark-cyan);
+    font-family: 'Fraunces', serif;
 }
 
 .price .disable {
